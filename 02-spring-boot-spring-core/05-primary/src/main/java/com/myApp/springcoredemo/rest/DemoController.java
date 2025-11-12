@@ -16,7 +16,7 @@ public class DemoController {
     //for this we can use 2 annotation --> @Primary or @Qualifier.
     //@Primary can be used directly on any one of the bean class (i.e. CricketCoach, BaseballCoach, TennisCoach or TrackCoach)
     //@Qualifier can be used on constructor
-    //ex: public DemoController (@Qualifier{"tennisCoach"} Coach theCoach){
+    //ex: public DemoController (@Qualifier("tennisCoach") Coach theCoach){
     //        myCoach = theCoach;
     //    }
     //@Qualifier("bean_name") --> bean_name is same as class name but make 1st alphabet as lower case.
